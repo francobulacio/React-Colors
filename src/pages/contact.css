@@ -1,0 +1,161 @@
+*{
+    font-family: inter,sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.Formulario{
+    display: flex;
+    background-color: rgb(255, 236, 236);
+    border-radius: 30px;
+    flex-direction: column;
+    width: 45%;
+    height: 500px;
+    align-items: center;
+    text-align: center;
+    margin-left: 380px;
+    margin-top: -140px;
+    outline: none;
+}
+
+.informacion{
+    margin-top: 20px;
+    font-size: 38px;
+}
+
+.creadora{
+    font-size: 22px;
+    color: rgb(126, 59, 155);
+}
+
+
+
+.contenedortres{
+    margin-top: 16px;
+}
+
+.nombre{
+    font-size: 20px;
+    
+}
+
+.botonUno{
+    margin-top: 5px;
+    width: 60%;
+    height: 26px;
+    border-color: rgb(190, 188, 238);
+    border-radius: 4px;
+}
+
+
+.correo{
+    margin-top: 20px;
+}
+.email{
+
+    font-size: 20px;
+}
+.botonDos{
+    margin-top: 5px;
+    width: 60%;
+    height: 26px;
+    border-color: grey;
+    border-radius: 4px;
+    border-color: rgb(190, 188, 238);
+}
+
+.seleccionarPaís{ 
+    font-size: 20px;
+    margin-top:  20px;
+}
+.paisess{
+    margin-top: 5px;
+    width: 30%;
+    height: 26px;
+    border-color: rgb(190, 188, 238);
+    border-radius: 4px;
+}
+
+.conditions{
+    margin-top: 17px;
+}
+
+.Terms{
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.linksT{
+    font-size: 20px;
+}
+
+.conocimientos{
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.Tres{
+    margin-top: 5px;
+    width: 80%;
+    height: 40px;
+    border-color: rgb(190, 188, 238);
+    border-radius: 20px;
+}
+
+
+.enviar{
+    margin-top: 15px;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border-color: rosybrown;
+}
+
+@media screen and (max-width: 1228px ) {
+    .Formulario{
+        width: 50%;
+        margin-left: 350px;
+    }
+}
+
+
+@media screen and (max-width:880px){
+    .Formulario{
+        width: 70%;
+        margin-left: 280px;
+    }
+}
+
+@media screen and (max-width:655px){
+    .Formulario{
+        width: 90%;
+        margin-left: 280px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .Formulario{
+        width: 120%;
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+
+}
+
+
+@media screen and (max-width: 430px){
+    .Formulario{
+        width: 90%;
+        height: 600px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+}
+
+

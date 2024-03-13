@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter,sans-serif;
+}
+
+.container{
+    display: flex;
+}
+.navegador{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.navegador input{
+    padding: 7px 20px;
+    width: 700px;
+    margin-left: 120px;
+    border-radius: 20px;
+    border-color: rgb(209, 209, 209);
+    font-size: 14px;
+}
+
+
+.container .dos{
+    width: 1000px;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    margin-top: -220px;
+    margin-left: 230px;
+}
+
+.container .tres{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    position: relative;
+    margin-top: -1120px;
+    margin-left: 1020px;
+}
+
+.cardColorsList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 27px;
+}
+
+.ColorDesing{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    width: 240px;
+    line-height: 160%;
+}
+
+.Discover{
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgb(97, 97, 97);
+}
+.buttonP{
+    display: flex;
+
+}
+
+
+.sugerencias{
+    display: flex;
+    position: relative;
+    margin-top: -920px;
+    margin-left: -220px;
+    width: 20%;
+    height: 80%;
+}
+
+.sug{
+    display: flex;
+    flex-direction: column;
+    color: rgb(153, 153, 153);
+    text-align: center;
+}
+
+.busqueda{
+    margin-top: 6px;
+    font-size: 20px;
+}
+
+.Retro{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+
+@media screen and (max-width: 1500px ) {
+    .container .dos{
+        width: 1000 px;
+        margin-top: -220px;
+        margin-left: 180px;
+    }
+
+    .navegador input{
+        padding: 7px 20px;
+        width: 600px;
+        margin-left: 160px;
+
+    }
+
+    .cardColorsList{
+        gap: 11px;
+        margin-top: 27px;
+    }
+
+    .container .tres{
+        position: relative;
+        margin-top: -1058px;
+        margin-left: 960px;
+    }
+    .ColorDesing{
+        font-size: 15px;
+        width: 180px;
+    }
+    .sugerencias{
+        margin-top: -860px;
+        margin-left: -172px;
+        width: 20%;
+        height: 80%;
+    }
+    .Retro{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .busqueda{
+        margin-top: 6px;
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 1228px ) {
+    .container .dos{
+        width: 800px;
+        margin-top: -220px;
+        margin-left: 180px;
+    }
+
+    .navegador input{
+        width: 600px;
+        margin-left: 120px;
+    }
+
+    .container .tres{
+        position: relative;
+        margin-top: -1600px;
+        margin-left: 750px;
+    }
+    .ColorDesing{
+        font-size: 15px;
+        width: 190px;
+    }
+    .sugerencias{
+        margin-top: -1380px;
+        margin-left: -150px;
+        width: 20%;
+        height: 80%;
+    }
+    .busqueda{
+        font-size: 17px;
+    }
+}
+
+
+@media screen and (max-width: 1080px){
+    .container .dos{
+        width: 700px;
+        margin-top: -220px;
+        margin-left: 180px;
+    }
+    .navegador input{
+        padding: 7px 20px;
+        width: 400px;
+        margin-left: 160px;
+
+    }
+    .busqueda{
+        font-size: 15px;
+    }
+    .Retro{
+        font-size: 14px;
+    }
+    .container .tres{
+        position: relative;
+        margin-top: -1590px;
+        margin-left: 690px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .navegador input{
+        padding: 7px 20px;
+        width: 370px;
+        margin-left: 120px;
+
+    }
+    .container .dos{
+        width: 600px;
+        margin-top: -220px;
+        margin-left: 180px;
+    }
+    .sugerencias{
+        margin-top: -1900px;
+        margin-left: -130px;
+        width: 20%;
+        height: 80%;
+    }
+    .busqueda{
+        font-size: 20px;
+    }
+    .Retro{
+        font-size: 17px;
+    }
+    .container .tres{
+        position: relative;
+        margin-top: -2120px;
+        margin-left: 550px;
+    }
+}
+
+@media screen and (max-width:552px){
+    .navegador input{
+        padding: 7px 20px;
+        width: 290px;
+        margin-left: 120px;
+
+    }
+    .container .dos{
+        width: 800px;
+        margin-top: -220px;
+        margin-left: 140px;
+    }
+    .sugerencias{
+        margin-top: -1300px;
+        margin-left: -120px;
+        width: 20%;
+        height: 80%;
+    }
+    .busqueda{
+        font-size: 20px;
+    }
+    .Retro{
+        font-size: 17px;
+    }
+    .container .tres{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .container .dos{
+        margin-top: -40px;
+        margin-left: 0px;
+    }
+    .sugerencias{
+        display: none;
+        }
+    .navegador input{
+        margin-left: 250px;
+    }
+}
+
+@media screen and (max-width: 445px){
+    .navegador input{
+        padding: 6px 20px;
+        width: 170px;
+        margin-left: 150px;
+        margin-top: -1px;
+
+    }
+    .container .dos{
+        width:96%;
+        margin-top: -40px;
+        margin-left: 10px;
+    }
+
+
+    .container .tres{
+        display: none;
+    }
+    .cardColorsList{
+        gap: 16px;
+        margin-top: 27px;
+    }
+    .date{
+        margin-left: -16px;
+    }
+
+}
+
+@media screen and (max-width: 380px){
+    .navegador input{
+        margin-left: 70px;
+    }
+    .container .dos{
+        margin-left: 10px;
+    }
+}

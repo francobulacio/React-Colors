@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter,sans-serif;
+}
+
+header{
+    border: 1px solid rgb(236, 236, 236);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+/*     background-color: rgb(250, 250, 250); */
+    
+}
+
+.Menu{
+    display: none;
+}
+
+
+.Logo{
+    display: flex;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 30px;
+    color: black;
+}
+
+.ColorH{
+    margin-top: 2px;
+    font-size: 26px;
+    margin-left: 10px;
+}
+
+.Registro{
+    cursor: pointer;
+    border: 1px solid rgb(204, 204, 204);
+    background-color: rgb(255, 255, 255);
+    padding: 7px 10px;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-right: 50px;
+    margin-top: 8px;
+}
+
+.NewUno{
+    display: none;
+}
+
+.ColorHunt2{
+    display: none;
+}
+
+.Insta{
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width: 1500px){
+    .ColorH{
+        margin-top: 6px;
+        font-size: 23px;
+
+}
+
+
+
+.header{
+    border: 1px solid rgb(236, 236, 236);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+}
+
+@media screen and (max-width: 990px){
+    header{
+        border: 1px solid rgb(236, 236, 236);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 107%;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 931px){
+    .header{
+        width: 125%;
+    }
+    .Registro{
+        margin-right: 50px;
+    }
+}
+@media screen and (max-width:872px){
+    header{
+        width: 124%;
+    }
+    .Registro{
+        margin-right: 120px;
+    }
+}
+
+@media screen and (max-width:790px){
+    header{
+        width: 130%;
+    }
+    .Registro{
+        margin-right: 80px;
+    }
+}
+
+@media screen and (max-width:670px){
+    header{
+        width: 180%;
+    }
+    .Registro{
+        margin-right: 220px;
+    }
+}
+
+@media screen and (max-width: 590px){
+    header{
+        width: 200%;
+    }
+    .Registro{
+        margin-right: 260px;
+    }
+}
+@media screen and (max-width: 520px){
+    header{
+        width: 160%;
+    }
+    .Registro{
+        display: none;
+    }
+    .ColorH{
+        font-size: 18px;
+        margin-top: 7px;
+        margin-left: 3px;
+    }
+    .Logo{
+        margin-left: 9px;
+    }
+    .Menu{
+        display: flex;
+        width: 80px;
+        font-size: 30px;
+        color: rgb(116, 53, 117);
+        background: #fff;
+        border: 1px solid #ffffff;
+        border-radius: 10px;
+    }
+}
+
+
+@media screen and (max-width: 445px){
+    header{
+        width: 107%;
+    }
+    .Registro{
+        display: none;
+    }
+    .ColorH{
+        font-size: 18px;
+        margin-top: 7px;
+        margin-left: 3px;
+    }
+    .Logo{
+        margin-left: 9px;
+    }
+    .Menu{
+        display: flex;
+        width: 80px;
+        font-size: 30px;
+        color: rgb(116, 53, 117);
+        background: #fff;
+        border: 1px solid #ffffff;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .ColorH{
+        display: none;
+    }
+}

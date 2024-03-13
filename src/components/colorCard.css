@@ -1,0 +1,133 @@
+*{
+    font-family: inter,sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.colorCard{
+    width: 232px;
+    display: flex;
+    flex-direction: column;
+}
+
+.colorCard .colores{
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.colorCard .colores div:nth-child(1){
+    flex: 4;
+}
+.colorCard .colores div:nth-child(2){
+    flex: 3;
+}
+.colorCard .colores div:nth-child(3){
+    flex: 2;
+}
+
+.colorCard .colores div:nth-child(4){
+    flex: 1.5;
+}
+
+.colorCard .colores div {
+    display: flex;
+    align-items: end;
+
+}
+
+.colorCard .colores div span{
+    display: none;
+}
+
+.colorCard .colores div:hover span{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.276);
+    color: #fff;
+    padding: 3px;
+}
+
+.megusta {
+    display: inline-flex;
+    margin-top: 12px;
+    background: #fff;
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    height: 36px;
+    padding: 9px 9px;
+    font-size: 14px;
+
+}
+
+.corazon{
+    position: relative;
+    top: -2px;
+    margin-right: 3px;
+    font-size: 20px;
+}
+.date{
+    position: relative;
+    top: -7px;
+    left: 90px;
+    font-size: 14px;
+    color: rgba(7, 7, 7, 0.726);
+}
+
+@media screen and (max-width: 1350px ) {
+    .colorCard{
+        width: 210px;
+    }
+    .colorCard .colores{
+        height: 210px;
+    }
+    
+}
+
+@media screen and (max-width: 1500px ){
+    .colorCard{
+        width: 214px;
+    }
+    .colorCard .colores{
+        height: 209px;
+    }
+}
+
+@media screen and (max-width: 440px){
+    .colorCard{
+        width: 174px;
+    }
+    .colorCard .colores{
+        height: 173px;
+    }
+    .date{
+        position: relative;
+        top: -7px;
+        left: 67px;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.575);
+    }
+}
+
+@media screen and (max-width: 380px){
+    .colorCard{
+        width: 150px;
+    }
+    .colorCard .colores{
+        height: 150px;
+    }
+    .megusta{
+        margin-top: 5px;
+    }
+    .date{
+        margin-left: -30px;
+        top: -4px;
+    }
+}

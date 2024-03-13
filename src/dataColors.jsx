@@ -1,0 +1,385 @@
+import { Link } from "react-router-dom";
+import uno from './img/uno.png'
+import dos from './img/dos.png'
+import tres from './img/tres.png'
+import cuatro from './img/cuatro.png'
+import cinco from './img/cinco.png'
+import seis from './img/seis.png'
+import siete from './img/siete.png'
+import ocho from './img/ocho.png'
+import nueve from './img/nueve.png'
+import diez from './img/diez.png'
+import once from './img/once.png'
+import doce from './img/doce.png'
+import trece from './img/trece.png'
+import catorce from './img/catorce.png'
+import quince from './img/quince.png'
+import dieciseis from './img/dieciseis.png'
+import './dataColors.css'
+
+export const colorCards = [
+    {
+        id: 1,
+        nombre: 'Blue sky',
+        category: 'Pastel',
+        description: 'Encuentra una hermosa paleta de colores pastel de la colección de cuartetos de Color Hunts.',
+        likes: 490,
+        cantidad: 1,
+        date: 'Yesterday',
+         colores: [
+            '#D2E0FB',
+            '#F9F3CC',
+            '#D7E5CA',
+            '#8EACCD',
+            
+        ],
+        datosuno: '#D2E0FB ', datosdos: '#F9F3CC', datostres: '#D7E5CA', datoscuatro: '#8EACCD ',
+        img: <img src= {uno} />,
+        bolitasuno: <div className="uno1">.</div>,
+        bolitasdos: <div className="uno2">.</div>,
+        bolitastres: <div className="uno3">.</div>,
+        bolitascuatro: <div className="uno4">.</div>,
+    },
+
+    {
+        id: 2,
+        nombre: 'Revange',
+        category: 'Vintage',
+        description: 'Encuentra una hermosa paleta de colores vintage de la colección de cuartetos de Color Hunts.',
+        likes: 149,
+        cantidad: 1,
+        date: 'Yesterday',
+        colores: [
+            '#001524',
+            '#445D48',
+            '#D6CC99',
+            '#FDE5D4',
+        ],
+        datosuno: '#001524', datosdos: '#445D48', datostres: '#D6CC99', datoscuatro: '#FDE5D4',
+        img: <img src= {dos} />,
+        bolitasuno: <div className="dos1">.</div>,
+        bolitasdos: <div className="dos2">.</div>,
+        bolitastres: <div className="dos3">.</div>,
+        bolitascuatro: <div className="dos3">.</div>,
+    },
+
+    {
+        id: 3,
+        nombre: 'Cardigan',
+        category: 'Retro',
+        description: 'Encuentra una hermosa paleta de colores retro de la colección de cuartetos de Color Hunts.',
+        likes: 4302,
+        cantidad: 1,
+        date: '1 week',
+        colores: [
+            '#6F61C0',
+            '#A084E8',
+            '#8BE8E5',
+            '#D5FFE4',
+        ],
+        datosuno: '#6F61C0', datosdos: '#A084E8', datostres: '#8BE8E5', datoscuatro: '#D5FFE4',
+        img: <img src= {tres} />,
+        bolitasuno: <div className="tres1">.</div>,
+        bolitasdos: <div className="tres2">.</div>,
+        bolitastres: <div className="tres3">.</div>,
+        bolitascuatro: <div className="tres4">.</div>,
+    },
+
+
+    {
+        id: 4,
+        nombre: 'Love Story',
+        category: 'Pastel',
+        description: 'Encuentra una hermosa paleta de colores pastel de la colección de cuartetos de Color Hunts.',
+        likes: 450,
+        cantidad: 1,
+        date: '4 days',
+        colores: [
+            '#FFF3DA',
+            '#DFCCFB',
+            '#D0BFFF',
+            '#BEADFA',
+        ],
+        datosuno: '#FFF3DA', datosdos: '#DFCCFB', datostres: '#D0BFFF', datoscuatro: '#BEADFA',
+        img: <img src= {cuatro} />,
+        bolitasuno: <div className="cuatro1">.</div>,
+        bolitasdos: <div className="cuatro2">.</div>,
+        bolitastres: <div className="cuatro3">.</div>,
+        bolitascuatro: <div className="cuatro4">.</div>,
+    },
+
+    {
+        id: 5,
+        nombre: 'Cruel summer',
+        category: 'Neon',
+        description: 'Encuentra una hermosa paleta de colores neon de la colección de cuartetos de Color Hunts.', 
+        likes: 328,
+        cantidad: 1,
+        date: '1 month',
+        colores: [
+            '#900C3F',
+            '#C70039',
+            '#F94C10',
+            '#F8DE22',
+        ],
+        datosuno: '#900C3F', datosdos: '#C70039', datostres: '#F94C10', datoscuatro: '#F8DE22',
+        img: <img src= {cinco} />,
+        bolitasuno: <div className="cinco1">.</div>,
+        bolitasdos: <div className="cinco2">.</div>,
+        bolitastres: <div className="cinco3">.</div>,
+        bolitascuatro: <div className="cinco4">.</div>,
+    },
+
+    {
+
+        id: 6,
+        nombre: 'Enchanted',
+        category: 'Gold',
+        description: 'Encuentra una hermosa paleta de colores dorados de la colección de cuartetos de Color Hunts',
+        likes: 290,
+        cantidad: 1,
+        date: '2 months',
+        colores: [
+            '#EF9595',
+            '#EFB495',
+            '#EFD595',
+            '#EBEF95',
+        ],
+        datosuno: '#EF9595', datosdos: '#EFB495', datostres: '#EFD595', datoscuatro: '#EBEF95',
+        img: <img src= {seis} />,
+        bolitasuno: <div className="seis1">.</div>,
+        bolitasdos: <div className="seis2">.</div>,
+        bolitastres: <div className="seis3">.</div>,
+        bolitascuatro: <div className="seis4">.</div>,
+    },
+
+    {
+        id: 7,
+        nombre: 'ME!',
+        category: 'Neon',
+        description: 'Encuentra una hermosa paleta de colores neon de la colección de cuartetos de Color Hunts', 
+        likes: 4283 ,
+        cantidad: 1,
+        date: '3 months',
+        colores: [
+            '#0079FF',
+            '#00DFA2',
+            '#F6FA70',
+            '#FF0060',
+        ],
+        datosuno: '#0079FF', datosdos: '#00DFA2', datostres: '#F6FA70', datoscuatro: '#FF0060',
+        img: <img src= {siete} />,
+        bolitasuno: <div className="siete1">.</div>,
+        bolitasdos: <div className="siete2">.</div>,
+        bolitastres: <div className="siete3">.</div>,
+        bolitascuatro: <div className="siete4">.</div>,
+    },
+
+    {
+        id: 8,
+        nombre: 'State of Grace',
+        category: 'Gold',
+        category2: 'Popular',
+        description: 'Encuentra una hermosa paleta de colores dorados de la colección de cuartetos de Color Hunts',
+        likes: 6822,
+        cantidad: 1,
+        date: '5 months',
+        colores: [
+            '#451952',
+            '#662549',
+            '#AE445A',
+            '#F39F5A',
+        ],
+        datosuno: '#451952', datosdos: '#662549', datostres: '#AE445A', datoscuatro: '#F39F5A',
+        img: <img src= {ocho} />,
+        bolitasuno: <div className="ocho1">.</div>,
+        bolitasdos: <div className="ocho2">.</div>,
+        bolitastres: <div className="ocho3">.</div>,
+        bolitascuatro: <div className="ocho4">.</div>,
+    },
+
+    {
+        id: 9,
+        nombre: 'Happiness',
+        category: 'Light',
+        description: 'Encuentra una hermosa paleta de colores claros de la colección de cuartetos de Color Hunts', 
+        likes: 1752,
+        cantidad: 1,
+        date: '6 months',
+        colores: [
+            '#45FFCA',
+            '#FEFFAC',
+            '#FFB6D9',
+            '#D67BFF',
+        ],
+        datosuno: '#45FFCA', datosdos: '#FEFFAC', datostres: '#FFB6D9', datoscuatro: '#D67BFF',
+        img: <img src= {nueve} />,
+        bolitasuno: <div className="nueve1">.</div>,
+        bolitasdos: <div className="nueve2">.</div>,
+        bolitastres: <div className="nueve3">.</div>,
+        bolitascuatro: <div className="nueve4">.</div>,
+
+    },
+
+    {
+        id: 10,
+        nombre: 'Seven',
+        category: 'Gold',
+        description: 'Encuentra una hermosa paleta de colores dorados de la colección de cuartetos de Color Hunts',
+        likes: 2129,
+        cantidad: 1,
+        date: '8 months',
+        colores: [
+            '#DAB88B',
+            '#F3E9DD',
+            '#FDF6EC',
+            '#B7CADB',
+        ],
+        datosuno: '#DAB88B', datosdos: '#F3E9DD', datostres: '#FDF6EC', datoscuatro: '#B7CADB',
+        img: <img src= {diez} />,
+        bolitasuno: <div className="diez1">.</div>,
+        bolitasdos: <div className="diez2">.</div>,
+        bolitastres: <div className="diez3">.</div>,
+        bolitascuatro: <div className="diez4">.</div>,
+
+    },
+
+    {
+        id: 11,
+        nombre: 'Lover',
+        category: 'Light',
+        category2: 'Popular',
+        description: 'Encuentra una hermosa paleta de colores claros de la colección de cuartetos de Color Hunts', 
+        likes: 5397,
+        cantidad: 1,
+        date: '9 months',
+        colores: [
+            '#FBA1B7',
+            '#FFD1DA',
+            '#FFF0F5',
+            '#FFDBAA',
+        ],
+        datosuno: '#FBA1B7', datosdos: '#FFD1DA', datostres: '#FFF0F5', datoscuatro: '#FFDBAA',
+        img: <img src= {once} />,
+        bolitasuno: <div className="once1">.</div>,
+        bolitasdos: <div className="once2">.</div>,
+        bolitastres: <div className="once3">.</div>,
+        bolitascuatro: <div className="once4">.</div>,
+
+    },
+
+    {
+        id: 12,
+        nombre: 'Black space',
+        category: 'Dark',
+        category2: 'Popular',
+        description: 'Encuentra una hermosa paleta de colores oscuros de la colección de cuartetos de Color Hunts.',
+        likes: 5955,
+        cantidad: 1,
+        date: '11 months',
+        colores: [
+            '#040D12',
+            '#183D3D',
+            '#5C8374',
+            '#93B1A6',
+        ],
+        datosuno: '#040D12', datosdos: '#183D3D', datostres: '#5C8374', datoscuatro: '#93B1A6',
+        img: <img src= {doce} />,
+        bolitasuno: <div className="doce1">.</div>,
+        bolitasdos: <div className="doce2">.</div>,
+        bolitastres: <div className="doce3">.</div>,
+        bolitascuatro: <div className="doce4">.</div>,
+    },
+
+    {
+        id: 13,
+        nombre: 'Dorothea',
+        category: 'Warm',
+        category2: 'Popular',
+        description: 'Encuentra una hermosa paleta de colores cálidos de la colección de cuartetos de Color Hunts.',
+        likes: 6833,
+        cantidad: 1,
+        date: '11 months',
+        colores: [
+            '#EAC696',
+            '#C8AE7D',
+            '#765827',
+            '#65451F',
+        ],
+        datosuno: '#EAC696', datosdos: '#C8AE7D', datostres: '#765827', datoscuatro: '#65451F',
+        img: <img src= {trece} />,
+        bolitasuno: <div className="trece1">.</div>,
+        bolitasdos: <div className="trece2">.</div>,
+        bolitastres: <div className="trece3">.</div>,
+        bolitascuatro: <div className="trece4">.</div>,
+    },
+
+    {
+        id: 14,
+        nombre: 'Tolerate it',
+        category: 'Cold',
+        description: 'Encuentra una hermosa paleta de colores fríos de la colección de cuartetos de Color Hunts.',
+        likes: 1046,
+        cantidad: 1,
+        date: '1 year',
+        colores: [
+            '#6499E9',
+            '#9EDDFF',
+            '#A6F6FF',
+            '#BEFFF7',
+        ],
+        datosuno: '#6499E9', datosdos: '#9EDDFF', datostres: '#A6F6FF', datoscuatro: '#BEFFF7',
+        img: <img src= {catorce} />,
+        bolitasuno: <div className="catorce1">.</div>,
+        bolitasdos: <div className="catorce2">.</div>,
+        bolitastres: <div className="catorce3">.</div>,
+        bolitascuatro: <div className="catorce4">.</div>,
+    },
+
+    {
+        id: 15,
+        nombre: 'Maps,',
+        category: 'Retro',
+        description: 'Encuentra una hermosa paleta de colores retro de la colección de cuartetos de Color Hunts.',
+        likes: 300,
+        cantidad: 1,
+        date: '1 year',
+        colores: [
+            '#22A699',
+            '#F2BE22',
+            '#F29727',
+            '#F24C3D',
+        ],
+        datosuno: '#22A699', datosdos: '#F2BE22', datostres: '#F29727', datoscuatro: '#F24C3D',
+        img: <img src= {quince} />,
+        bolitasuno: <div className="quince1">.</div>,
+        bolitasdos: <div className="quince2">.</div>,
+        bolitastres: <div className="quince3">.</div>,
+        bolitascuatro: <div className="quince4">.</div>,
+    },
+
+    {
+        nombre: 'Hikaru',
+        category: 'Warm',
+        category2: 'Popular',
+        description: 'Encuentra una hermosa paleta de colores oscuros de la colección de cuartetos de Color Hunts.',
+        likes: 6444,
+        cantidad: 1,
+        date: '1 year',
+        colores: [
+            '#3AA6B9',
+            '#FFD0D0',
+            '#FF9EAA',
+            '#C1ECE4',
+        ],
+        id: 16,
+        datosuno: '#3AA6B9', datosdos: '#FFD0D0', datostres: '#FF9EAA', datoscuatro: '#C1ECE4',
+        img: <img src= {dieciseis} />,
+        bolitasuno: <div className="dieciseis1">.</div>,
+        bolitasdos: <div className="dieciseis2">.</div>,
+        bolitastres: <div className="dieciseis3">.</div>,
+        bolitascuatro: <div className="dieciseis4">.</div>,
+        
+    },
+
+]

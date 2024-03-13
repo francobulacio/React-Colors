@@ -1,0 +1,75 @@
+*{
+    font-family: inter,sans-serif;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 400px;
+    margin-top: -130px;
+    width: 44%;
+}
+
+.imagen{
+    text-align: center;
+
+}
+
+.Color{
+    text-align: center;
+    font-size: 32px;
+}
+
+.description{
+    color: rgb(53, 53, 53);
+    margin-top: 7px ;
+    text-align: center;
+    font-size: 17px;
+}
+
+.PreguntaUno{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.RespuestaUno{
+    color: rgb(53, 53, 53);
+    font-size: 17px;
+    margin-top: 7px ;
+    text-align: center;
+}
+
+.Made{
+    margin-top: 24px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.colaboration{
+    margin: 4px;
+    color: rgb(61, 61, 145);
+    text-align: center;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 530px){
+    .contenedor{
+        width: 90%;
+        margin-left: 250px;
+    }
+    }
+
+@media screen and (max-width: 445px){
+.contenedor{
+    margin-left: 60px;
+    margin-top: 30px;
+    width: 80%;
+}
+}

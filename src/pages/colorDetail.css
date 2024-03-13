@@ -1,0 +1,135 @@
+*{
+    font-family: inter,sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.colos{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: -140px;
+    margin-left: 450px; 
+}
+
+
+
+.likes {
+    display: inline-flex;
+    margin-top: 15px;
+    margin-left: 0px;
+    background: #fff;
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    height: 40px;
+    padding: 9px 13px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.fecha{
+    position: relative;
+    top: -5px;
+    margin: 220px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.575);
+}
+
+
+.detalles{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-left: 1050px;
+    margin-top: -400px;
+    width: 18%;
+    overflow: hidden;
+}
+
+.Category{
+    display: flex;
+    position: relative;
+    font-size: 17px;
+}
+.Description{
+    display: flex;
+    position: relative;
+    font-size: 15px;
+    color: rgb(97, 97, 97);
+}
+
+.datoscolor{
+    display: flex;
+    flex-direction: row;
+    color: rgb(22, 22, 22);
+    gap: 46px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 455px;
+    font-size: 15px;
+}
+
+.datosdos{
+    margin-left: 2px;
+}
+
+
+
+
+.EditorPelotitas{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-left: 460px;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 500px){
+    .colos{
+        margin-left: 5px;
+        margin-top: 25px;
+    }
+    .fecha{
+        position: relative;
+        top: -5px;
+        margin: 93px;
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.575);
+    }
+    .likes {
+
+        margin-left: 0px;
+        height: 50px;
+        padding: 12px 20px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .EditorPelotitas{
+        margin-left: 15px;
+    }
+    .datoscolor{
+        margin-left: 17px;
+        gap: 30px;
+        font-size: 17px;
+    }
+
+    .detalles{
+        margin-left: 70px;
+        width: 70%;
+        margin-top: 30px;
+    }
+    .Category{
+        font-size: 30px;
+        margin-left: 73px;
+        }
+    .Description{
+        font-size: 20px;
+        text-align: center;
+    }
+
+}

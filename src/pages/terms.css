@@ -1,0 +1,124 @@
+*{
+    font-family: inter,sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.contenedorcinco{
+    display: flex;
+    background-color: rgb(255, 249, 255);
+    border-radius: 30px;
+    flex-direction: column;
+    width: 50%;
+    height: 520px;
+    align-items: center;
+    text-align: center;
+    margin-left: 360px;
+    margin-top: -160px;
+}
+
+.TerminosS{
+    margin-top: 17px;
+    font-size: 19px;
+}
+
+.descriptionUno{
+    margin-top: 6px;
+    font-size: 16px;
+}
+
+.TerminosL{
+    margin-top: 17px;
+    font-size: 18px;
+}
+
+.descriptionDos{
+    margin-top: 6px;
+    font-size: 16px;
+}
+
+.TerminosSus{
+    margin-top: 17px;
+    font-size: 18px;
+}
+
+.descriptionTres{
+    margin-top: 6px;
+    font-size: 16px;
+}
+
+.TerminosC{
+    margin-top: 17px;
+    font-size: 18px;
+}
+.descriptionCuatro{   
+    margin-top: 6px;
+    font-size: 16px;
+
+}
+
+
+.TerminosE{
+    margin-top: 17px;
+    font-size: 18px;
+}
+.descriptionCinco{
+    margin-top: 6px;
+    font-size: 16px;
+
+}
+
+@media screen and (max-width: 1440px ) {
+    .contenedorcinco{
+        height: 590px;
+    }
+}
+
+
+@media screen and (max-width:1170px){
+    .contenedorcinco{
+        height: 680px;
+    }
+}
+
+@media screen and (max-width:880px){
+    .contenedorcinco{
+        height: 600px;
+        width: 80%;
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width: 690px){
+    .contenedorcinco{
+        height: 670px;
+        width: 100%;
+        margin-left: 40%;
+    }
+
+}
+
+
+@media screen and (max-width: 540px){
+    .contenedorcinco{
+        height: 700px;
+        width: 120%;
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .contenedorcinco{
+        height: 750px;
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 16px;
+    }
+
+}
